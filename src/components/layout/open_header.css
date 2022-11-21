@@ -1,0 +1,7 @@
+.open-header{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 30px;
+}

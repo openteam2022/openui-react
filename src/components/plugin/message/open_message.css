@@ -1,0 +1,33 @@
+.open-message{
+    position: absolute;
+    top: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: 50%;
+    min-width: 100px;
+    padding: 12px 20px;
+    font-family: "微软雅黑";
+    font-size: 14px;
+    border-radius: 4px;
+    letter-spacing: 1px;
+}
+.open-message-base{
+    border: 1px #ddd solid;
+    background: #f4f4f5;
+    color: var(--color-font-shallow);
+}
+.open-message-success{
+    border: 1px #d1edc4 solid;
+    background: #e1f3d8;
+    color: #67C23A;
+}
+.open-message-error{
+    border: 1px  #fde2e2 solid;
+    background: #fef0f0;
+    color: #F56C6C;
+}
+.open-message-load{
+    border: 1px #ddd solid;
+    background: #f4f4f5;
+    color: var(--color-font-shallow);
+}

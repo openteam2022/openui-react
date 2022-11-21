@@ -1,0 +1,26 @@
+.timeline{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px 20px;
+    font-family: "微软雅黑";
+}
+.timeline-list{
+    list-style: none;
+}
+.timeline-box{
+    width: 100%;
+    box-sizing: border-box;
+    min-height: 80px;
+    padding: 0px 20px 0px 20px;
+    position: relative;
+}
+.timeline-box-mark{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #e4e7ed;
+    position: absolute;
+    top: 0;
+    left: -8px;
+
+}

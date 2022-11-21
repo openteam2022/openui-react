@@ -1,0 +1,15 @@
+.home{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.sm{
+    font-size: var(--font-size-sm);
+}
+.base{
+    font-size: var(--font-size-base);
+}
+.lg{
+    font-size: var(--font-size-lg);
+}

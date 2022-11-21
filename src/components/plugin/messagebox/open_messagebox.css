@@ -1,0 +1,54 @@
+.open-messagebox{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    width: 100%;
+    height: 100%;
+    font-family: "微软雅黑";
+    background: rgba(0, 0, 0, .3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+}
+.open-messagebox-box{
+    width: 400px;
+    padding: 20px 30px;
+    background: #fff;
+    border-radius: 4px;
+}
+.open-messagebox-box-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    font-size: 18px;
+    color: var(--color-font-deep);
+    height: 40px;
+}
+.open-messagebox-box-content{
+    font-size: 14px;
+    color: var(--color-font-base);
+    padding-bottom: 20px;
+}
+.open-messagebox-box-footer{
+    display: flex;
+    justify-content: end;
+}
+.open-messagebox-box-footer span{
+    display: inline-block;
+    padding: 6px 15px;
+    margin-left: 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 13px;
+}
+.ombf-cancel{
+    border: 1px #ccc solid;
+    color: var(--color-font-deep);
+}
+
+.ombf-confirm{
+    background: #1890ff;
+    color: #fff;
+}

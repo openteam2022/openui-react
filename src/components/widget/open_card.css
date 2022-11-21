@@ -1,0 +1,26 @@
+.open-card{
+    font-family: "微软雅黑";
+    width: 200px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.12);
+    border-radius: 5px;
+    cursor: pointer;
+}
+.open-card-img{
+    width: 100%;
+    background: #f4f4f4;
+}
+.open-card-content{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 15px;
+}
+.open-card-content-title{
+    font-size: var(--font-size-base);
+    color: var(--color-font-base);
+    font-family: 600;
+    padding-bottom: 5px;
+}
+.open-card-content-text{
+    font-size: var(--font-size-sm);
+    color: var(--color-font-shallow);
+}

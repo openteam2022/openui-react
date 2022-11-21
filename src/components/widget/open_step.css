@@ -1,0 +1,47 @@
+.open-step{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 30px 10px 10px 10px;
+    font-family: "微软雅黑";
+}
+.open-step-list{
+    list-style: none;
+    display: flex;
+}
+.open-step-list-item{
+    min-width: 80px;
+    min-height: 50px;
+    padding: 20px 20px 10px 0;
+    position: relative;
+}
+.osli-mark{
+    width: 24px;
+    line-height: 24px;
+    border-radius: 50%;
+    background: #fff;
+    border: 2px #333 solid;
+    position: absolute;
+    top: -15px;
+    left: 0px;
+    z-index: 9;
+    text-align: center;
+    font-size: var(--font-size-lg);
+    color: var(--color-font-deep);
+
+}
+.osli-item{
+    font-size: var(--font-size-lg);
+}
+.open-step-active{
+    color: #1890ff;
+}
+
+.open-step-base-line{
+    border-top: 2px #a8abb2 solid;
+}
+.open-step-none-line{
+    border-top: 2px #fff solid;
+}
+.open-step-active-line{
+    border-top: 2px #1890ff solid;
+}

@@ -1,0 +1,54 @@
+.open-button{
+    display: inline-block;
+}
+.open-button-default{
+    border: 0;
+    background: none;
+    font-size: 14px;
+    padding: 8px 15px;
+    cursor: pointer;
+}
+.default{
+    color: var(--color-font-deep);
+    border: 1px #dcdfe6 solid;
+    border-radius: 4px;
+}
+.default:hover{
+    color: var(--color-app);
+    border: 1px #c6e2ff solid;
+    background: #ecf5ff;
+}
+.default:active{
+    border: 1px var(--color-app) solid;
+}
+
+
+
+.primary{
+    color: #fff;
+    background: var(--color-app);
+    border-radius: 4px;
+    border: 1px var(--color-app) solid;
+}
+.primary:hover{
+    border: 1px #c6e2ff solid;
+    background: rgba(64, 158, 255, 0.7);
+}
+.primary:active{
+    background: var(--color-app);
+}
+
+.danger{
+    color: #fff;
+    background: #f56c6c;
+    border-radius: 4px;
+    border: 1px #f56c6c solid;
+}
+.danger:hover{
+    border: 1px #c6e2ff solid;
+    background: rgba(245, 108, 108, 0.7);
+}
+.danger:active{
+    background: #f56c6c;
+}
+

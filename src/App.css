@@ -1,0 +1,9 @@
+:root{
+    --color-app: #1890ff;
+    --color-font-deep:  #333;
+    --color-font-base:  #666;
+    --color-font-shallow:  #999;
+    --font-size-sm: 0.7rem;
+    --font-size-base: 0.9rem;
+    --font-size-lg: 1rem;
+}

@@ -1,0 +1,27 @@
+.open-badge{
+    position: relative;
+    display: inline-block;
+}
+.open-badge-dot{
+    position: absolute;
+    right: -5px;
+    top: -5px;
+    z-index: 99;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #f56c6c;
+}
+
+.open-badge-num{
+    position: absolute;
+    top: -5px;
+    z-index: 99;
+    padding: 0 5px;
+    text-align: center;
+    line-height: 14px;
+    font-size: var(--font-size-sm);
+    color: #fff;
+    border-radius: 7px;
+    background: #f56c6c;
+}
